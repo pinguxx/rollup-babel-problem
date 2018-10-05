@@ -1,0 +1,24 @@
+{
+  "name": "babel-rollup-problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "scripts": {
+    "start": "node node_modules/rollup/bin/rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.1.2",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "rollup": "0.66.4",
+    "rollup-plugin-babel": "4.0.3",
+    "rollup-plugin-cdn": "0.1.2",
+    "rollup-plugin-commonjs": "9.1.8",
+    "rollup-plugin-node-resolve": "3.4.0"
+  }
+}
