@@ -19,7 +19,7 @@ const defaults = {
     plugins: [
       cdn(),
       hypertemplate({
-        include: "**/*.hyper.html"
+        include: "**/*.htt"
       }),
       npm({
         jsnext: true,

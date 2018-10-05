@@ -1,4 +1,4 @@
-import template from "./template.hyper.html";
+import template from "./template.htt";
 
 const div = document.createElement("div");
 
